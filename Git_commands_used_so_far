@@ -15,7 +15,7 @@ updating git and github when creating  a new file / file editing:
 
 git add (file names) #adding new files to git    (can use -a for all instead of file name)
 git commit (file names)  #commiting them to git   ( "                                   ")
-git push -u origin main  #pushing new commited files to github
+git push  #pushing new commited files to github  (-u origin main) -- I don't know what that does, just specifies the branch? works fine without if you're already in the correct branch
 
 updating git and local files with changes made on github, including new branches, new files, file edits etc.
 
