@@ -17,12 +17,16 @@ git add (file names) #adding new files to git    (can use -a for all instead of 
 git commit (file names)  #commiting them to git   ( "                                   ")
 git push  #pushing new commited files to github  (-u origin main) -- I don't know what that does, just specifies the branch? works fine without if you're already in the correct branch
 
-updating git and local files with changes made on github, including new branches, new files, file edits etc.
+updating git and local files with changes made on github - new files, file edits etc.
 
-git fetch  #fetching metadata, new branches 
+git fetch  #checks for new stuff on github but doesn't download it
 git pull   #pulling any edits or new files made in github
 
 switching between branches:
 
-git branch               #lists branches
+git branch -a             #lists both local and remote branches
 git switch (branch)      #changes to specified branch
+
+pulling a remote branch, making it a local branch:
+
+git checkout (branch_name)
