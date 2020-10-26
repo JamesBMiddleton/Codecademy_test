@@ -3,7 +3,9 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@domain.com"
 
 other commands
-git clone (url)
-git add (file names)
-git commit (file names)
-git push -u origin main
+git clone (url)  #intial pull request for git repository, wil create a file in current directory of the git repository
+git add (file names) #adding new files to git
+git commit (file names)  #commiting them to git
+git push -u origin main  #pushing new commited files to github
+
+git pull (url)  #pulling any edits or new files made in github
