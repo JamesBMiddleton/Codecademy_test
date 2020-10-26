@@ -29,4 +29,7 @@ git switch (branch)      #changes to specified branch
 
 pulling a remote branch, making it a local branch:
 
-git checkout (branch_name)
+git fetch                          #needed to retrieve metadata on new branch created in github
+git checkout (branch_name)         #pulls new branch to local repository, can then be accessed using git switch (branch_name)
+
+
